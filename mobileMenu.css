@@ -1,0 +1,52 @@
+#menuWrapper {
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+#menuWrap {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#menuOverlay {
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.9)), url('Artboard 1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#menuClose {
+    float: right;
+    font-size: 2em;
+    padding: 24px 12px 0;
+}
+
+#menu {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 50vh;
+    padding-top: 50px;
+    padding-left: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.option a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+.option a:hover {
+    color: #3792CC;
+}
+
+#active {
+    color: #3792CC;
+    font-weight: 500;
+}

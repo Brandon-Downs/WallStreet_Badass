@@ -1,21 +1,46 @@
 * { 
     color: #555;
+    font-family: 'Julius Sans One', sans-serif;
+    box-sizing: border-box;
 }
 
 h1, h2 {
-    font-family: 'Julius Sans One', sans-serif;
     text-align: center;
 }
 
-body {
-    background-color: #e2df2d
+
+#header {
+    margin-top: 15px;
+/*    padding: 0 10px;*/
+}
+#headerWrap {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#logo {
+    text-align: left;
+    margin: 5px 0;
+    width: 80px;
+/*    margin: 25px auto;*/
 }
 
-#logo {
-    width: 60px;
-    display: block;
-    margin: 25px auto;
+.fa-bars,
+.fa-times-circle {
+    color: rgba(85, 85, 85, 0.79);
 }
+#nav {
+    
+    font-size: 1.7em;
+    float: right;
+    margin: 7px 0;
+    padding: 3px 8px 0;
+    border: 1px solid rgba(85, 85, 85, 0.54);
+    border-radius: 5px;
+
+}
+
+
 
 span.blueFont {
     color: #3792CC;
@@ -25,21 +50,30 @@ span.blueFont {
     padding: 25px 0;
     background-color: #ffffff;
     width: 100%;
-    max-width:500px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 4px 10px #d3d02d,
-                0 0 8px 15px #555;
+    box-shadow: 0 0 0 1px rgba(85, 85, 85, 0.48),
+        
+        0 0 118px 13px rgba(211, 208, 45, 0.31)
+/*        0 0 0 15px #555;*/
 }
 
 #iconWrapper {
     width: 90%;
+    max-width: 450px;
     margin: 40px auto 0;
     display: flex;
     justify-content: space-around;
 }
+
+.fa:hover,
+.fa:active {
+    color: #3792CC;
+}
+
+
 
 
 #footer {
@@ -57,6 +91,5 @@ span.blueFont {
     display: block;
     margin: 0 auto 17px;
     border: 1px solid #555;
-    box-shadow: 0 0 4px 2px #d3d02d,
-                0 0 8px 4px #555;
+    box-shadow:0 0 0 2.5px #fff, 0 0 0 3px #555;
 }
