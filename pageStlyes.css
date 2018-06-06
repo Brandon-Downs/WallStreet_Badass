@@ -55,15 +55,25 @@
     padding: 18px 26px;
 }
 
+.cf {
+    clear: both;
+    margin-bottom: 40px;
+}
 
 #underline {
     width: 50%;
     float: right;
-    margin-bottom: 20px;
     border-bottom: 1px solid #555;
 }
 
 
+.textLeft {
+    text-align: left;
+}
+
+.textRight {
+    text-align: right;
+}
 
 
 #contentWrapper {
